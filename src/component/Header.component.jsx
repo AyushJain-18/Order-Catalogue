@@ -38,9 +38,9 @@ const Header = ({isFooter, history,totalCartItems}) => {
                  <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
                        <MenuIcon />
                   </IconButton>
-                <Typography variant="h6" onClick={()=> history.push('/')} className={classes.title}>
+                {/* <Typography variant="h6" onClick={()=> history.push('/')} className={classes.title}>
                         Dashboard
-                </Typography>
+                </Typography> */}
                 <Typography variant="h6"  onClick={()=> history.push('/')} className={classes.title}>
                        Order Catalogue 
                 </Typography>
