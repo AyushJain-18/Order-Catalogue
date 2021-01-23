@@ -41,7 +41,7 @@ const Header = ({isFooter, history,totalCartItems}) => {
                 <Typography variant="h6" onClick={()=> history.push('/')} className={classes.title}>
                         Dashboard
                 </Typography>
-                <Typography variant="h6"  onClick={()=> history.push('/Catalogue')} className={classes.title}>
+                <Typography variant="h6"  onClick={()=> history.push('/')} className={classes.title}>
                        Order Catalogue 
                 </Typography>
                 <Typography variant="h6" onClick={()=> history.push('/cart')} className={classes.title}>
