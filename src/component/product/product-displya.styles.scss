@@ -1,0 +1,56 @@
+
+.product-container{
+    display         : flex;
+    flex-direction  : column;
+    box-shadow      : 2px 2px 10px black;
+    background-color: #f7e9e9;
+    border-radius   : 10px;
+    padding         : 10px;
+    width           : fit-content;
+    height          : fit-content;
+    margin          : 20px 30px;
+    min-height      : 400px ;
+        .product-image{
+                width   : 200px;
+                height  : 200px;
+        }
+        .product-data-container{
+            display         : flex;
+            flex-direction  : column;
+            justify-content : space-between;
+            align-items     : center;
+            padding         : 10px 0px;
+            width           : 200px;
+            font-size       : 1rem;
+            letter-spacing  : 1.125px ;
+            font-family: 'Lato', sans-serif;
+                .each-product-data{
+                            display: flex;
+                            justify-content : space-between;
+                            margin-bottom   : 10px ;
+                            :first-child{
+                                color: rgb(161, 109, 109);
+                                font-weight: bold;
+                            }
+                }
+                .product-add-to-cart{
+                        display         : flex;
+                        align-items     : center;
+                        flex-direction  : row;
+                        padding         : 5px 10px;
+                        margin          : 20px 0px 0px ;
+                        border-radius   : 5px;
+                        background-color: #85e398;
+                        height          : max-content;
+                        font-weight     : bold;
+                        color           : black;
+                        &:hover{
+                            filter: brightness(1.1);
+                            cursor: pointer;
+                        }
+                        &:active{
+                            transform: scale(0.9);
+                        }   
+                }
+            }
+}
