@@ -4,8 +4,6 @@ import './order-catalogue.styless.scss';
 import ProductDisplay from '../product/product-display.component'
 // raect materila
 import SearchIcon from '@material-ui/icons/Search';
-import FormGroup from '@material-ui/core/FormGroup';
-import FormControlLabel from '@material-ui/core/FormControlLabel';
 import {withStyles} from '@material-ui/core/styles'
 import Checkbox from '@material-ui/core/Checkbox';
 import Select from '@material-ui/core/Select';
@@ -19,7 +17,7 @@ import CloseIcon from '@material-ui/icons/Close';
 
 import CATALOGUE_DATA from '../../assests/CatalogueData';
 import {updateSearchResult , updateFilterResult} from '../../utils/search-utils';
-import { TrackChangesTwoTone } from '@material-ui/icons';
+
 
 const styles = theme => ({
     formControl: {

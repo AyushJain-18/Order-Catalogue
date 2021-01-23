@@ -3,14 +3,13 @@ import DisplayCart from './component/cart/cart.compoennt';
 import HeaderFooter from './component/Header.component';
 import {Route, Switch} from 'react-router-dom';
 
-import Catalogue from './assests/CatalogueData'
+// import Catalogue from './assests/CatalogueData'
 
 const Dashboard = () => <div>Dashborad</div>
 function App() {
   return (  
             <>
              <HeaderFooter/>
-             {/* <OrderCatalogue/> */}
                       <Switch>
                           <Route exact path='/'  component ={Dashboard}/>
                           <Route exact path='/Catalogue' component ={OrderCatalogue}/>
