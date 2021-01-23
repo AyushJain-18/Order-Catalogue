@@ -52,7 +52,7 @@ class ProductDisplay extends React.Component{
                             </span>
                         </button>}
                 </div>
-                <Snackbar open={this.state.open} autoHideDuration={6000} onClose={this.handleClose}
+                <Snackbar open={this.state.open} autoHideDuration={1000} onClose={this.handleClose}
                          anchorOrigin={{vertical: 'top', horizontal: 'center' }}>
                             <Alert onClose={this.handleClose}   severity="info">
                                  Item added to cart <br/>
