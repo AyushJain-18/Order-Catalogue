@@ -8,8 +8,8 @@ import {cartItems} from '../../store/select'
 
 const DisplayCart =({cartItems}) =>{
     return (
-        <div className='category-items-container'>
-                {cartItems.length>0 && <h1 className='category-header'>Cart Items are</h1> }
+        <div className='category-items-container-cart'>
+                {cartItems.length>0 && <h1 className='category-header-cart'>Cart Items are</h1> }
                 {cartItems.length>0 ? cartItems.map(eachItem => (
                         <ProductDisplay key={eachItem.product_id}
                                         category={eachItem.category} {...eachItem}

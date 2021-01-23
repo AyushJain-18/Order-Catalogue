@@ -1,4 +1,4 @@
-.category-header{
+.category-header-cart{
     font-size   : 4rem;
     background-color: #1976d2;
     color           : white ;
@@ -10,11 +10,11 @@
     margin          : 0px;
 
 }
-.category-items-container{
+.category-items-container-cart{
     width               : calc(100vw - 57px);
     display             : flex;
     flex-wrap           : wrap;
-    justify-content     : start;
+    justify-content     : flex-start;
     margin-bottom       : 40px ;
     padding             : 20px 10px;
 }

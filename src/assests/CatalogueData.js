@@ -1,4 +1,4 @@
-{
+const Catalogue = {
     "Catalogue":[
         {
             "category": "Beauty",
@@ -273,3 +273,5 @@
     "all_brands": ["Himalaya","Lotus Herbals", "Biotique", "Vlcc", 
                     "Lakme", "Pure-skin", "Haldirams", "Lays", "Maggi", "Rin", "Surf excel"]
 }
+
+export default   Catalogue;

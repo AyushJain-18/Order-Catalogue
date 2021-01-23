@@ -17,7 +17,7 @@ import ListItemText from '@material-ui/core/ListItemText';
 import CloseIcon from '@material-ui/icons/Close';
 
 
-import CATALOGUE_DATA from '../../assests/CatalogueData.json';
+import CATALOGUE_DATA from '../../assests/CatalogueData';
 import {updateSearchResult , updateFilterResult} from '../../utils/search-utils';
 import { TrackChangesTwoTone } from '@material-ui/icons';
 
@@ -107,9 +107,7 @@ class OrderCatalogue extends React.Component{
                             <div className='category-items-container'>
                                 {
                                   eachCategory.products.length>0 ? eachCategory.products.map(eachProduct => (
-                                            <ProductDisplay key={eachProduct.product_id}  isAddToCart
-                                                            category={eachCategory.category} {...eachProduct}
-                                            />
+                                            <ProductDisplay key={eachProduct.product_id} category={eachCategory.category} {...eachProduct}/>
                                     
                                     ))   : <div style={{width: 'calc(100vw - 55px)', textAlign:'center'}}>No Data found</div>
                                 }
