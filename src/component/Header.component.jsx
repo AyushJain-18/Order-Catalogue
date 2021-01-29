@@ -38,11 +38,11 @@ const Header = ({isFooter, history,totalCartItems}) => {
                  <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
                        <MenuIcon />
                   </IconButton>
-                {/* <Typography variant="h6" onClick={()=> history.push('/')} className={classes.title}>
-                        Dashboard
-                </Typography> */}
                 <Typography variant="h6"  onClick={()=> history.push('/')} className={classes.title}>
                        Order Catalogue 
+                </Typography>
+                <Typography variant="h6" onClick={()=> history.push('/Charts')} className={classes.title}>
+                        Dashboard Charts
                 </Typography>
                 <Typography variant="h6" onClick={()=> history.push('/cart')} className={classes.title}>
                       Cart 
